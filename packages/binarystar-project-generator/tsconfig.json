@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist/esm",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "jest", "mocha"],
+    "resolveJsonModule": true
+  },
+  "include": [
+    "./src",
+    "./__tests__"
+  ]
+} 

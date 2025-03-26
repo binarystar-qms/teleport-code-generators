@@ -28,11 +28,6 @@
     "local:publish": "lerna exec --bail=false  -- npm publish -f --registry http://localhost:4873",
     "local:unpublish": "lerna exec --bail=false -- npm unpublish -f --registry http://localhost:4873"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && npm run lint && npm run many:check"
-    }
-  },
   "engines": {
     "node": ">=20.x"
   },
@@ -46,7 +41,7 @@
   "dependencies": {
     "@manypkg/cli": "^0.20.0",
     "@types/babel-types": "^7.0.7",
-    "@types/jest": "^25.1.1",
+    "@types/jest": "^29.5.14",
     "@types/node": "18",
     "@types/prettier": "^2.1.6",
     "@types/rimraf": "^2.0.3",

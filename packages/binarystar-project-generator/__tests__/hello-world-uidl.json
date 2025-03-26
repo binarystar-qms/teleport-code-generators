@@ -1,0 +1,21 @@
+{
+  "name": "HelloWorld",
+  "node": {
+    "type": "element",
+    "content": {
+      "elementType": "container",
+      "style": {
+        "color": {
+          "type": "static",
+          "content": "#f51010"
+        }
+      },
+      "children": [
+        {
+          "type": "static",
+          "content": "Hello World"
+        }
+      ]
+    }
+  }
+} 
